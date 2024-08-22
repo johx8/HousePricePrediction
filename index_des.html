@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House price prediction</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="style_des.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Titan+One&display=swap" rel="stylesheet">
@@ -12,14 +12,14 @@
 </head>
 <body> 
     <header>
-        <h1 class="text-bg-primary p-3">House Price Prediction</h1>
-        <img src="{{ url_for('static', filename='images/1_logo_final.png') }}" alt="House Image" class="logo">
-
+        <h1 class="text-bg-primary p-3">House price prediction</h1>
+        <img src="1_logo_final.png" alt="" class="logo">
     </header>
     <main>
-        <p>Predicting the house price using Machine Learning concepts.</p>
+        <p>Predicting the house price using Machine Learning.</p>
+        <!-- <p>(values may not be accurate)</p> -->
         <div class="container">
-            <img src="{{ url_for('static', filename='images/house_png.png') }}" alt="" srcset="" class="image-1">
+            <img src="house_png.png" alt="" srcset="" class="image-1">
 
 
             <form id="predictionForm">
@@ -90,7 +90,7 @@
 
     <footer>
         <p id="f1">Developed by: Jyothish & Indhudar<br></p>
-        <p class="copyright" id="f1">Copyright2024@House Price Prediction</p>
+        <p class="copyright" id="f1">@copyright2024-House Price Prediction</p>
     </footer>
 
     <script>
@@ -130,7 +130,7 @@
         })
         .then(response => response.text())
         .then(price => {
-            document.getElementById('predictedPrice').innerHTML = "Price: INR " + Math.floor(price*1.5);
+            document.getElementById('predictedPrice').innerHTML = "Price: INR " + Math.floor(price);
         })
         .catch(error => console.error('Error:', error));
     }

@@ -1,36 +1,75 @@
 body{
-    background-color: rgb(12, 70, 121);
+  background-color: rgb(12, 70, 121);
 }
 h1{
-    color: beige;
-    font-family: "Titan One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
+  color: beige;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
 
 .main-form{
-    border: 3px outset black;
-    background-color: rgb(252, 254, 254);    
-    text-align: center;
+  border: 3px outset black;
+  background-color: rgb(252, 254, 254);    
+  text-align: center;
 }
 
 label{
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Rubik Mono One", monospace;
+font-weight: 400;
+font-style: normal;
 }
 
 #predictedPrice{
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
+font-family: "Rubik Mono One", monospace;
+font-weight: 400;
+font-style: normal;
+text-align: center;
 }
 
 p{
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
+font-family: "Rubik Mono One", monospace;
+font-weight: 400;
+font-style: normal;
+text-align: center;
 }
+
+.logo{
+position: absolute;
+top: 8px;
+left: 16px;
+font-size: 18px;
+
+
+  
+}
+
+
+footer{
+  text-align: center;
+  padding: 11px;
+  margin-bottom: auto;
+  background-color: rgb(12, 70, 121);
+  color: white;
+}
+
+.copyright{
+  font-family: 'Times New Roman', Times, serif;
+  /* color: black; */
+}
+
+.image-1{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block;
+  margin: 0 auto;
+  max-width: 100%; */
+  /* display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; */
+}
+

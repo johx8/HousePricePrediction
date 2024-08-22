@@ -4,8 +4,8 @@ import pickle
 
 app=Flask(__name__)
 data=pd.read_csv('final_dataset.csv')
-pipe=pickle.load(open("ridgemodel.pkl",'rb'))
-# pipe=pickle.load(open("randomForestmodel.pkl",'rb'))
+#pipe=pickle.load(open("ridgemodel.pkl",'rb'))
+pipe=pickle.load(open("randomForestmodel.pkl",'rb'))
 
 
 data['beds'] = data['beds'].astype(str)
